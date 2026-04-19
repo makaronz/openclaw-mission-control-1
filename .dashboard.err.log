@@ -1,0 +1,475 @@
+⚠ Warning: Next.js inferred your workspace root, but it may not be correct.
+ We detected multiple lockfiles and selected the directory of /Users/arkadiuszfudali/pnpm-lock.yaml as the root directory.
+ To silence this warning, set `outputFileTracingRoot` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/config/next-config-js/output#caveats for more information.
+ Detected additional lockfiles: 
+   * /Users/arkadiuszfudali/.openclaw/openclaw-mission-control/package-lock.json
+
+[AutoTransport] Permanent CLI mode: HTTP 401 during probe: {"error":{"message":"Unauthorized","type":"unauthorized"}}. HTTP transport disabled for this process.
+Skills API error: Error: Command failed: /opt/homebrew/bin/openclaw skills list --json
+Invalid config at /Users/arkadiuszfudali/.openclaw/openclaw.json:\n- agents.defaults: Unrecognized key: "contextInjection"
+Config invalid
+File: ~/.openclaw/openclaw.json
+Problem:
+  - agents.defaults: Unrecognized key: "contextInjection"
+
+Run: openclaw doctor --fix
+
+    at <unknown> (File: ~/.openclaw/openclaw.json) {
+  code: 1,
+  killed: false,
+  signal: null,
+  cmd: '/opt/homebrew/bin/openclaw skills list --json',
+  stdout: '',
+  stderr: 'Invalid config at /Users/arkadiuszfudali/.openclaw/openclaw.json:\\n- agents.defaults: Unrecognized key: "contextInjection"\n' +
+    'Config invalid\n' +
+    'File: ~/.openclaw/openclaw.json\n' +
+    'Problem:\n' +
+    '  - agents.defaults: Unrecognized key: "contextInjection"\n' +
+    '\n' +
+    'Run: openclaw doctor --fix\n'
+}
+Skills API error: Error: Command failed: /opt/homebrew/bin/openclaw skills check --json
+Invalid config at /Users/arkadiuszfudali/.openclaw/openclaw.json:\n- agents.defaults: Unrecognized key: "contextInjection"
+Config invalid
+File: ~/.openclaw/openclaw.json
+Problem:
+  - agents.defaults: Unrecognized key: "contextInjection"
+
+Run: openclaw doctor --fix
+
+    at <unknown> (File: ~/.openclaw/openclaw.json) {
+  code: 1,
+  killed: false,
+  signal: null,
+  cmd: '/opt/homebrew/bin/openclaw skills check --json',
+  stdout: '',
+  stderr: 'Invalid config at /Users/arkadiuszfudali/.openclaw/openclaw.json:\\n- agents.defaults: Unrecognized key: "contextInjection"\n' +
+    'Config invalid\n' +
+    'File: ~/.openclaw/openclaw.json\n' +
+    'Problem:\n' +
+    '  - agents.defaults: Unrecognized key: "contextInjection"\n' +
+    '\n' +
+    'Run: openclaw doctor --fix\n'
+}
+Skills API error: Error: Command failed: /opt/homebrew/bin/openclaw skills list --json
+Invalid config at /Users/arkadiuszfudali/.openclaw/openclaw.json:\n- agents.defaults: Unrecognized key: "contextInjection"
+Config invalid
+File: ~/.openclaw/openclaw.json
+Problem:
+  - agents.defaults: Unrecognized key: "contextInjection"
+
+Run: openclaw doctor --fix
+
+    at <unknown> (File: ~/.openclaw/openclaw.json) {
+  code: 1,
+  killed: false,
+  signal: null,
+  cmd: '/opt/homebrew/bin/openclaw skills list --json',
+  stdout: '',
+  stderr: 'Invalid config at /Users/arkadiuszfudali/.openclaw/openclaw.json:\\n- agents.defaults: Unrecognized key: "contextInjection"\n' +
+    'Config invalid\n' +
+    'File: ~/.openclaw/openclaw.json\n' +
+    'Problem:\n' +
+    '  - agents.defaults: Unrecognized key: "contextInjection"\n' +
+    '\n' +
+    'Run: openclaw doctor --fix\n'
+}
+Agents API POST error: Error: Gateway RPC unavailable for config.get — gateway is not reachable via HTTP
+    at i.gatewayRpc (.next/server/chunks/7489.js:1:3436)
+Skills API error: Error: Command failed: /opt/homebrew/bin/openclaw skills list --json
+Invalid config at /Users/arkadiuszfudali/.openclaw/openclaw.json:\n- agents.defaults: Unrecognized key: "contextInjection"
+Config invalid
+File: ~/.openclaw/openclaw.json
+Problem:
+  - agents.defaults: Unrecognized key: "contextInjection"
+
+Run: openclaw doctor --fix
+
+    at <unknown> (File: ~/.openclaw/openclaw.json) {
+  code: 1,
+  killed: false,
+  signal: null,
+  cmd: '/opt/homebrew/bin/openclaw skills list --json',
+  stdout: '',
+  stderr: 'Invalid config at /Users/arkadiuszfudali/.openclaw/openclaw.json:\\n- agents.defaults: Unrecognized key: "contextInjection"\n' +
+    'Config invalid\n' +
+    'File: ~/.openclaw/openclaw.json\n' +
+    'Problem:\n' +
+    '  - agents.defaults: Unrecognized key: "contextInjection"\n' +
+    '\n' +
+    'Run: openclaw doctor --fix\n'
+}
+Agents API POST error: Error: Gateway RPC unavailable for config.get — gateway is not reachable via HTTP
+    at i.gatewayRpc (.next/server/chunks/7489.js:1:3436)
+Agents API POST error: Error: Gateway RPC unavailable for config.get — gateway is not reachable via HTTP
+    at i.gatewayRpc (.next/server/chunks/7489.js:1:3436)
+[chat] Gateway returned 404 from http://127.0.0.1:18789/v1/responses. Not Found
+Hooks API error: Error: Command failed: /opt/homebrew/bin/openclaw hooks list --json
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+
+    at ignore-listed frames {
+  code: 1,
+  killed: true,
+  signal: null,
+  cmd: '/opt/homebrew/bin/openclaw hooks list --json',
+  stdout: '',
+  stderr: "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n"
+}
+Skills API error: Error: Command failed: /opt/homebrew/bin/openclaw skills list --json
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+
+    at ignore-listed frames {
+  code: 1,
+  killed: true,
+  signal: null,
+  cmd: '/opt/homebrew/bin/openclaw skills list --json',
+  stdout: '',
+  stderr: "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n"
+}
+Skills API error: Error: Command failed: /opt/homebrew/bin/openclaw skills check --json
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+
+    at ignore-listed frames {
+  code: 1,
+  killed: true,
+  signal: null,
+  cmd: '/opt/homebrew/bin/openclaw skills check --json',
+  stdout: '',
+  stderr: "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n"
+}
+Skills API error: Error: Command failed: /opt/homebrew/bin/openclaw skills list --json
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+
+    at ignore-listed frames {
+  code: 1,
+  killed: true,
+  signal: null,
+  cmd: '/opt/homebrew/bin/openclaw skills list --json',
+  stdout: '',
+  stderr: "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n"
+}
+Skills API error: Error: Command failed: /opt/homebrew/bin/openclaw skills check --json
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'
+
+    at ignore-listed frames {
+  code: 1,
+  killed: true,
+  signal: null,
+  cmd: '/opt/homebrew/bin/openclaw skills check --json',
+  stdout: '',
+  stderr: "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n" +
+    "[plugins] memory-hybrid invalid config: embedding: must have required property 'embedding'\n"
+}
+Cron GET error: Error: Gateway RPC unavailable for cron.list — gateway is not reachable via HTTP
+    at i.gatewayRpc (.next/server/chunks/7489.js:1:3436)
+Devices API GET error: Error: Gateway RPC unavailable for device.pair.list — gateway is not reachable via HTTP
+    at i.gatewayRpc (.next/server/chunks/7489.js:1:3436)
+⚠ Warning: Next.js inferred your workspace root, but it may not be correct.
+ We detected multiple lockfiles and selected the directory of /Users/arkadiuszfudali/pnpm-lock.yaml as the root directory.
+ To silence this warning, set `outputFileTracingRoot` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/config/next-config-js/output#caveats for more information.
+ Detected additional lockfiles: 
+   * /Users/arkadiuszfudali/.openclaw/openclaw-mission-control/package-lock.json
+
+[AutoTransport] Permanent CLI mode: HTTP 401 during probe: {"error":{"message":"Unauthorized","type":"unauthorized"}}. HTTP transport disabled for this process.
+Agent create: gateway create failed, falling back to CLI Error: Gateway RPC unavailable for agents.create — gateway is not reachable via HTTP
+    at i.gatewayRpc (.next/server/chunks/7489.js:1:3436)
+Agent create: post-create config patch failed Error: Gateway RPC unavailable for config.get — gateway is not reachable via HTTP
+    at i.gatewayRpc (.next/server/chunks/7489.js:1:3436)
+Agents API POST error: Error: Gateway RPC unavailable for config.get — gateway is not reachable via HTTP
+    at i.gatewayRpc (.next/server/chunks/7489.js:1:3436)
+Agents API POST error: Error: Gateway RPC unavailable for config.get — gateway is not reachable via HTTP
+    at i.gatewayRpc (.next/server/chunks/7489.js:1:3436)
+Audio API GET error: Error: Gateway RPC unavailable for tts.status — gateway is not reachable via HTTP
+    at i.gatewayRpc (.next/server/chunks/7489.js:1:3436)
+[chat] Gateway returned 404 from http://127.0.0.1:18789/v1/responses. Not Found
+Heartbeat GET error: Error: Gateway RPC unavailable for config.get — gateway is not reachable via HTTP
+    at i.gatewayRpc (.next/server/chunks/7489.js:1:3436)
