@@ -482,3 +482,5 @@ Heartbeat GET error: Error: Gateway RPC unavailable for config.get — gateway i
 
 Heartbeat GET error: Error: Gateway RPC unavailable for config.get — gateway is not reachable via HTTP
     at i.gatewayRpc (.next/server/chunks/7489.js:1:3436)
+Sessions GET error: Error: Gateway RPC unavailable for sessions.list — gateway is not reachable via HTTP
+    at i.gatewayRpc (.next/server/chunks/7489.js:1:3436)
