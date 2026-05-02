@@ -484,3 +484,147 @@ Heartbeat GET error: Error: Gateway RPC unavailable for config.get — gateway i
     at i.gatewayRpc (.next/server/chunks/7489.js:1:3436)
 Sessions GET error: Error: Gateway RPC unavailable for sessions.list — gateway is not reachable via HTTP
     at i.gatewayRpc (.next/server/chunks/7489.js:1:3436)
+Audio API GET error: Error: Gateway RPC unavailable for tts.status — gateway is not reachable via HTTP
+    at i.gatewayRpc (.next/server/chunks/7489.js:1:3436)
+    at async K (.next/server/app/api/audio/route.js:3:3587)
+    at async k (.next/server/app/api/audio/route.js:3:15584)
+    at async j (.next/server/app/api/audio/route.js:3:16596)
+    at async Module.R (.next/server/app/api/audio/route.js:3:17663)
+TypeError: fetch failed
+    at ignore-listed frames {
+  [cause]: Error: getaddrinfo ENOTFOUND api.github.com
+      at ignore-listed frames {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'api.github.com'
+  }
+}
+TypeError: fetch failed
+    at ignore-listed frames {
+  [cause]: Error: getaddrinfo ENOTFOUND api.github.com
+      at ignore-listed frames {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'api.github.com'
+  }
+}
+⨯ Error: failed to pipe response
+    at l (.next/server/chunks/4741.js:15:68124)
+    at async g (.next/server/chunks/1813.js:1:26214)
+    at async k (.next/server/app/api/openclaw-update/route.js:1:6832)
+    at async j (.next/server/app/api/openclaw-update/route.js:1:7668)
+    at async Module.G (.next/server/app/api/openclaw-update/route.js:1:8735) {
+  [cause]: TypeError: fetch failed
+      at ignore-listed frames {
+    [cause]: Error: getaddrinfo ENOTFOUND api.github.com
+        at ignore-listed frames {
+      errno: -3008,
+      code: 'ENOTFOUND',
+      syscall: 'getaddrinfo',
+      hostname: 'api.github.com'
+    }
+  }
+}
+⚠ Warning: Next.js inferred your workspace root, but it may not be correct.
+ We detected multiple lockfiles and selected the directory of /Users/arkadiuszfudali/pnpm-lock.yaml as the root directory.
+ To silence this warning, set `outputFileTracingRoot` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/config/next-config-js/output#caveats for more information.
+ Detected additional lockfiles: 
+   * /Users/arkadiuszfudali/.openclaw/openclaw-mission-control/package-lock.json
+
+[AutoTransport] Permanent CLI mode: HTTP 401 during probe: {"error":{"message":"Unauthorized","type":"unauthorized"}}. HTTP transport disabled for this process.
+⚠ Warning: Next.js inferred your workspace root, but it may not be correct.
+ We detected multiple lockfiles and selected the directory of /Users/arkadiuszfudali/pnpm-lock.yaml as the root directory.
+ To silence this warning, set `outputFileTracingRoot` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/config/next-config-js/output#caveats for more information.
+ Detected additional lockfiles: 
+   * /Users/arkadiuszfudali/.openclaw/openclaw-mission-control/package-lock.json
+
+[AutoTransport] Permanent CLI mode: HTTP 401 during probe: {"error":{"message":"Unauthorized","type":"unauthorized"}}. HTTP transport disabled for this process.
+⚠ Warning: Next.js inferred your workspace root, but it may not be correct.
+ We detected multiple lockfiles and selected the directory of /Users/arkadiuszfudali/pnpm-lock.yaml as the root directory.
+ To silence this warning, set `outputFileTracingRoot` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/config/next-config-js/output#caveats for more information.
+ Detected additional lockfiles: 
+   * /Users/arkadiuszfudali/.openclaw/openclaw-mission-control/package-lock.json
+
+[AutoTransport] Permanent CLI mode: HTTP 401 during probe: {"error":{"message":"Unauthorized","type":"unauthorized"}}. HTTP transport disabled for this process.
+Sessions GET error: Error: Gateway RPC unavailable for sessions.list — gateway is not reachable via HTTP
+    at i.gatewayRpc (.next/server/chunks/7489.js:1:3436)
+Sessions GET error: Error: Gateway RPC unavailable for sessions.list — gateway is not reachable via HTTP
+    at i.gatewayRpc (.next/server/chunks/7489.js:1:3436)
+Sessions GET error: Error: Gateway RPC unavailable for sessions.list — gateway is not reachable via HTTP
+    at i.gatewayRpc (.next/server/chunks/7489.js:1:3436)
+Cron GET error: Error: Gateway RPC unavailable for cron.list — gateway is not reachable via HTTP
+    at i.gatewayRpc (.next/server/chunks/7489.js:1:3436)
+[chat] Gateway unreachable at http://127.0.0.1:18789/v1/responses: TypeError: fetch failed
+    at async z (.next/server/app/api/chat/route.js:17:679)
+    at async h (.next/server/app/api/chat/route.js:18:828)
+    at async B (.next/server/app/api/chat/route.js:18:865)
+    at async k (.next/server/app/api/chat/route.js:18:4444)
+    at async j (.next/server/app/api/chat/route.js:18:5456) {
+  [cause]: Error: connect ECONNREFUSED 127.0.0.1:18789
+      at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:18789) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '127.0.0.1',
+    port: 18789
+  }
+}
+[chat] Gateway unreachable at http://127.0.0.1:18789/v1/responses: TypeError: fetch failed
+    at async z (.next/server/app/api/chat/route.js:17:679)
+    at async h (.next/server/app/api/chat/route.js:18:828)
+    at async B (.next/server/app/api/chat/route.js:18:925)
+    at async k (.next/server/app/api/chat/route.js:18:4444)
+    at async j (.next/server/app/api/chat/route.js:18:5456) {
+  [cause]: Error: connect ECONNREFUSED 127.0.0.1:18789
+      at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:18789) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '127.0.0.1',
+    port: 18789
+  }
+}
+Hooks API error: Error: Command failed: /opt/homebrew/bin/openclaw hooks list --json
+
+    at ignore-listed frames {
+  code: 1,
+  killed: true,
+  signal: null,
+  cmd: '/opt/homebrew/bin/openclaw hooks list --json',
+  stdout: '',
+  stderr: ''
+}
+Agents API POST error: Error: Gateway RPC unavailable for config.get — gateway is not reachable via HTTP
+    at i.gatewayRpc (.next/server/chunks/7489.js:1:3436)
+Agents API POST error: Error: Gateway RPC unavailable for config.get — gateway is not reachable via HTTP
+    at i.gatewayRpc (.next/server/chunks/7489.js:1:3436)
+[chat] Gateway returned 404 from http://127.0.0.1:18789/v1/responses. Not Found
+[chat] Gateway returned 404 from http://127.0.0.1:18789/v1/responses. Not Found
+[chat] Gateway returned 404 from http://127.0.0.1:18789/v1/responses. Not Found
+[chat] Gateway returned 404 from http://127.0.0.1:18789/v1/responses. Not Found
+⚠ Warning: Next.js inferred your workspace root, but it may not be correct.
+ We detected multiple lockfiles and selected the directory of /Users/arkadiuszfudali/pnpm-lock.yaml as the root directory.
+ To silence this warning, set `outputFileTracingRoot` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/config/next-config-js/output#caveats for more information.
+ Detected additional lockfiles: 
+   * /Users/arkadiuszfudali/.openclaw/openclaw-mission-control/package-lock.json
+
+⚠ Warning: Next.js inferred your workspace root, but it may not be correct.
+ We detected multiple lockfiles and selected the directory of /Users/arkadiuszfudali/pnpm-lock.yaml as the root directory.
+ To silence this warning, set `outputFileTracingRoot` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/config/next-config-js/output#caveats for more information.
+ Detected additional lockfiles: 
+   * /Users/arkadiuszfudali/.openclaw/openclaw-mission-control/package-lock.json
+
+⚠ Warning: Next.js inferred your workspace root, but it may not be correct.
+ We detected multiple lockfiles and selected the directory of /Users/arkadiuszfudali/pnpm-lock.yaml as the root directory.
+ To silence this warning, set `outputFileTracingRoot` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/config/next-config-js/output#caveats for more information.
+ Detected additional lockfiles: 
+   * /Users/arkadiuszfudali/.openclaw/openclaw-mission-control/package-lock.json
+

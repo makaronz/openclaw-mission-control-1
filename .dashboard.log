@@ -83,3 +83,92 @@
 {"level":"error","ts":"2026-04-19T10:08:53.501Z","route":"/api/config","error":"Gateway RPC unavailable for config.get — gateway is not reachable via HTTP","stack":"Error: Gateway RPC unavailable for config.get — gateway is not reachable via HTTP\n    at i.gatewayRpc (/Users/arkadiuszfudali/.openclaw/openclaw-mission-control/.next/server/chunks/7489.js:1:3436)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","meta":{"scope":"config"}}
 {"level":"info","ts":"2026-04-19T10:09:00.530Z","route":"/api/gateway","status":200,"durationMs":1,"meta":{"gateway":"offline","coalesced":false}}
 {"level":"info","ts":"2026-04-19T10:11:49.823Z","route":"/api/gateway","status":200,"durationMs":0,"meta":{"gateway":"offline","coalesced":false}}
+{"level":"info","ts":"2026-04-19T13:40:22.760Z","route":"/api/gateway","status":200,"durationMs":0,"meta":{"gateway":"offline","coalesced":false}}
+{"level":"info","ts":"2026-04-19T13:40:24.912Z","route":"/api/gateway","status":200,"durationMs":0,"meta":{"gateway":"offline","cached":true}}
+{"level":"error","ts":"2026-04-19T13:40:37.641Z","route":"/api/config","error":"Gateway RPC unavailable for config.get — gateway is not reachable via HTTP","stack":"Error: Gateway RPC unavailable for config.get — gateway is not reachable via HTTP\n    at i.gatewayRpc (/Users/arkadiuszfudali/.openclaw/openclaw-mission-control/.next/server/chunks/7489.js:1:3436)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","meta":{"scope":"config"}}
+{"level":"info","ts":"2026-04-19T13:40:37.641Z","route":"/api/gateway","status":200,"durationMs":0,"meta":{"gateway":"offline","coalesced":false}}
+{"level":"error","ts":"2026-04-19T13:40:54.748Z","route":"/api/config","error":"Gateway RPC unavailable for config.get — gateway is not reachable via HTTP","stack":"Error: Gateway RPC unavailable for config.get — gateway is not reachable via HTTP\n    at i.gatewayRpc (/Users/arkadiuszfudali/.openclaw/openclaw-mission-control/.next/server/chunks/7489.js:1:3436)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","meta":{"scope":"config"}}
+{"level":"info","ts":"2026-04-19T13:40:54.751Z","route":"/api/gateway","status":200,"durationMs":0,"meta":{"gateway":"offline","coalesced":false}}
+{"level":"error","ts":"2026-04-19T13:40:59.646Z","route":"/api/config","error":"Gateway RPC unavailable for config.get — gateway is not reachable via HTTP","stack":"Error: Gateway RPC unavailable for config.get — gateway is not reachable via HTTP\n    at i.gatewayRpc (/Users/arkadiuszfudali/.openclaw/openclaw-mission-control/.next/server/chunks/7489.js:1:3436)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","meta":{"scope":"config"}}
+{"level":"error","ts":"2026-04-19T13:41:25.656Z","route":"/api/config","error":"Gateway RPC unavailable for config.get — gateway is not reachable via HTTP","stack":"Error: Gateway RPC unavailable for config.get — gateway is not reachable via HTTP\n    at i.gatewayRpc (/Users/arkadiuszfudali/.openclaw/openclaw-mission-control/.next/server/chunks/7489.js:1:3436)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","meta":{"scope":"config"}}
+{"level":"error","ts":"2026-04-19T13:41:52.480Z","route":"/api/config","error":"Gateway RPC unavailable for config.get — gateway is not reachable via HTTP","stack":"Error: Gateway RPC unavailable for config.get — gateway is not reachable via HTTP\n    at i.gatewayRpc (/Users/arkadiuszfudali/.openclaw/openclaw-mission-control/.next/server/chunks/7489.js:1:3436)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","meta":{"scope":"config"}}
+{"level":"info","ts":"2026-04-19T13:41:52.481Z","route":"/api/gateway","status":200,"durationMs":0,"meta":{"gateway":"offline","coalesced":false}}
+{"level":"error","ts":"2026-04-19T13:42:05.537Z","route":"/api/config","error":"Gateway RPC unavailable for config.get — gateway is not reachable via HTTP","stack":"Error: Gateway RPC unavailable for config.get — gateway is not reachable via HTTP\n    at i.gatewayRpc (/Users/arkadiuszfudali/.openclaw/openclaw-mission-control/.next/server/chunks/7489.js:1:3436)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","meta":{"scope":"config"}}
+{"level":"info","ts":"2026-04-19T13:42:05.537Z","route":"/api/gateway","status":200,"durationMs":0,"meta":{"gateway":"offline","coalesced":false}}
+{"level":"error","ts":"2026-04-19T13:42:08.625Z","route":"/api/config","error":"Gateway RPC unavailable for config.get — gateway is not reachable via HTTP","stack":"Error: Gateway RPC unavailable for config.get — gateway is not reachable via HTTP\n    at i.gatewayRpc (/Users/arkadiuszfudali/.openclaw/openclaw-mission-control/.next/server/chunks/7489.js:1:3436)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","meta":{"scope":"config"}}
+{"level":"info","ts":"2026-04-19T13:42:08.625Z","route":"/api/gateway","status":200,"durationMs":0,"meta":{"gateway":"offline","coalesced":false}}
+{"level":"error","ts":"2026-04-19T13:42:10.020Z","route":"/api/config","error":"Gateway RPC unavailable for config.get — gateway is not reachable via HTTP","stack":"Error: Gateway RPC unavailable for config.get — gateway is not reachable via HTTP\n    at i.gatewayRpc (/Users/arkadiuszfudali/.openclaw/openclaw-mission-control/.next/server/chunks/7489.js:1:3436)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","meta":{"scope":"config"}}
+{"level":"info","ts":"2026-04-19T13:42:10.020Z","route":"/api/gateway","status":200,"durationMs":0,"meta":{"gateway":"offline","cached":true}}
+{"level":"error","ts":"2026-04-19T13:42:12.386Z","route":"/api/config","error":"Gateway RPC unavailable for config.get — gateway is not reachable via HTTP","stack":"Error: Gateway RPC unavailable for config.get — gateway is not reachable via HTTP\n    at i.gatewayRpc (/Users/arkadiuszfudali/.openclaw/openclaw-mission-control/.next/server/chunks/7489.js:1:3436)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","meta":{"scope":"config"}}
+{"level":"info","ts":"2026-04-19T13:42:12.387Z","route":"/api/gateway","status":200,"durationMs":0,"meta":{"gateway":"offline","coalesced":false}}
+{"level":"info","ts":"2026-04-19T13:43:34.641Z","route":"/api/gateway","status":200,"durationMs":0,"meta":{"gateway":"offline","coalesced":false}}
+{"level":"info","ts":"2026-04-19T18:28:15.367Z","route":"/api/gateway","status":200,"durationMs":0,"meta":{"gateway":"offline","coalesced":false}}
+
+> @openclaw/dashboard@0.4.9 start
+> next start -H 127.0.0.1 -p 3333
+
+▲ Next.js 16.1.6
+- Local:         http://127.0.0.1:3333
+- Network:       http://127.0.0.1:3333
+
+✓ Starting...
+✓ Ready in 318ms
+{"level":"info","ts":"2026-04-20T20:22:02.738Z","route":"/api/gateway","status":200,"durationMs":4,"meta":{"gateway":"online","coalesced":false}}
+{"level":"info","ts":"2026-04-20T20:22:24.107Z","route":"/api/gateway","status":200,"durationMs":3,"meta":{"gateway":"online","coalesced":false}}
+{"level":"error","ts":"2026-04-20T20:22:32.034Z","route":"/api/config","error":"Gateway RPC unavailable for config.get — gateway is not reachable via HTTP","stack":"Error: Gateway RPC unavailable for config.get — gateway is not reachable via HTTP\n    at i.gatewayRpc (/Users/arkadiuszfudali/.openclaw/openclaw-mission-control/.next/server/chunks/7489.js:1:3436)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","meta":{"scope":"config"}}
+
+> @openclaw/dashboard@0.4.9 start
+> next start -H 127.0.0.1 -p 3333
+
+▲ Next.js 16.1.6
+- Local:         http://127.0.0.1:3333
+- Network:       http://127.0.0.1:3333
+
+✓ Starting...
+✓ Ready in 2.4s
+{"level":"info","ts":"2026-04-22T13:15:02.251Z","route":"/api/gateway","status":200,"durationMs":6,"meta":{"gateway":"online","coalesced":false}}
+
+> @openclaw/dashboard@0.4.9 start
+> next start -H 127.0.0.1 -p 3333
+
+▲ Next.js 16.1.6
+- Local:         http://127.0.0.1:3333
+- Network:       http://127.0.0.1:3333
+
+✓ Starting...
+✓ Ready in 265ms
+{"level":"info","ts":"2026-04-22T17:28:13.616Z","route":"/api/gateway","status":200,"durationMs":4,"meta":{"gateway":"online","coalesced":false}}
+{"level":"info","ts":"2026-04-22T19:11:11.816Z","route":"/api/gateway","status":200,"durationMs":5,"meta":{"gateway":"online","coalesced":false}}
+{"level":"error","ts":"2026-04-22T19:11:52.822Z","route":"/api/config","error":"Gateway RPC unavailable for config.get — gateway is not reachable via HTTP","stack":"Error: Gateway RPC unavailable for config.get — gateway is not reachable via HTTP\n    at i.gatewayRpc (/Users/arkadiuszfudali/.openclaw/openclaw-mission-control/.next/server/chunks/7489.js:1:3436)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","meta":{"scope":"config"}}
+{"level":"info","ts":"2026-04-22T20:27:07.549Z","route":"/api/gateway","status":200,"durationMs":4,"meta":{"gateway":"online","coalesced":false}}
+{"level":"error","ts":"2026-04-22T20:31:32.790Z","route":"/api/config","error":"Gateway RPC unavailable for config.get — gateway is not reachable via HTTP","stack":"Error: Gateway RPC unavailable for config.get — gateway is not reachable via HTTP\n    at i.gatewayRpc (/Users/arkadiuszfudali/.openclaw/openclaw-mission-control/.next/server/chunks/7489.js:1:3436)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","meta":{"scope":"config"}}
+
+> @openclaw/dashboard@0.4.9 start
+> next start -H 127.0.0.1 -p 3333
+
+▲ Next.js 16.1.6
+- Local:         http://127.0.0.1:3333
+- Network:       http://127.0.0.1:3333
+
+✓ Starting...
+✓ Ready in 3.2s
+
+> @openclaw/dashboard@0.4.9 start
+> next start -H 127.0.0.1 -p 3333
+
+▲ Next.js 16.1.6
+- Local:         http://127.0.0.1:3333
+- Network:       http://127.0.0.1:3333
+
+✓ Starting...
+✓ Ready in 565ms
+
+> @openclaw/dashboard@0.4.9 start
+> next start -H 127.0.0.1 -p 3333
+
+▲ Next.js 16.1.6
+- Local:         http://127.0.0.1:3333
+- Network:       http://127.0.0.1:3333
+
+✓ Starting...
+✓ Ready in 5.6s
