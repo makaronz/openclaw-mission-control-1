@@ -147,14 +147,83 @@ function dedupeDmRequests(requests: DmRequest[]): DmRequest[] {
   return out;
 }
 
-async function listDmRequestsFromCli(): Promise<DmRequest[]> {
-  const result = await runCliCaptureBoth(["pairing", "list", "--json"], 10000);
+const KNOWN_PAIRING_CHANNELS = ["telegram", "discord"] as const;
+
+async function readEnabledChannelIds(): Promise<string[]> {
+  const home = getOpenClawHome();
+  const fromConfig = new Set<string>();
+
+  try {
+    const raw = await readFile(join(home, "openclaw.json"), "utf-8");
+    const parsed = JSON.parse(raw) as unknown;
+    if (isRecord(parsed) && isRecord(parsed.channels)) {
+      for (const [channelId, value] of Object.entries(parsed.channels)) {
+        if (!channelId.trim()) continue;
+        if (isRecord(value) && value.enabled === false) continue;
+        fromConfig.add(channelId.trim().toLowerCase());
+      }
+    }
+  } catch {
+    // openclaw.json may be missing or temporarily invalid
+  }
+
+  try {
+    const files = await readdir(join(home, "credentials"));
+    for (const file of files) {
+      if (!file.endsWith("-pairing.json")) continue;
+      fromConfig.add(file.replace(/-pairing\.json$/, "").trim().toLowerCase());
+    }
+  } catch {
+    // credentials dir may not exist
+  }
+
+  const ordered = [
+    ...KNOWN_PAIRING_CHANNELS.filter((id) => fromConfig.has(id)),
+    ...[...fromConfig].filter((id) => !KNOWN_PAIRING_CHANNELS.includes(id as (typeof KNOWN_PAIRING_CHANNELS)[number])).sort(),
+  ];
+
+  return ordered;
+}
+
+async function listDmRequestsForChannel(channel: string): Promise<DmRequest[]> {
+  const result = await runCliCaptureBoth(
+    ["pairing", "list", "--channel", channel, "--json"],
+    10000,
+  );
   if (result.code !== 0) {
     const detail = String(result.stderr || result.stdout || "").trim();
-    throw new Error(detail || `pairing list exited with code ${result.code}`);
+    throw new Error(detail || `pairing list --channel ${channel} exited with code ${result.code}`);
   }
-  const payload = parseJsonFromCliOutput<unknown>(result.stdout, "openclaw pairing list --json");
-  return dedupeDmRequests(normalizeDmRequests(payload));
+  const payload = parseJsonFromCliOutput<unknown>(
+    result.stdout,
+    `openclaw pairing list --channel ${channel} --json`,
+  );
+  return normalizeDmRequests(payload, channel);
+}
+
+async function listDmRequestsFromCli(): Promise<DmRequest[]> {
+  const channels = await readEnabledChannelIds();
+  if (channels.length === 0) {
+    return [];
+  }
+
+  const merged: DmRequest[] = [];
+  let lastError: Error | undefined;
+
+  for (const channel of channels) {
+    try {
+      merged.push(...(await listDmRequestsForChannel(channel)));
+    } catch (err) {
+      lastError = err instanceof Error ? err : new Error(String(err));
+    }
+  }
+
+  if (merged.length > 0) {
+    return dedupeDmRequests(merged);
+  }
+
+  if (lastError) throw lastError;
+  return [];
 }
 
 /* ── GET: list all pending requests ──────────────── */

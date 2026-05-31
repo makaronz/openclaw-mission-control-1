@@ -121,6 +121,7 @@ let _bin: string | null = null;
 let _binDone = false;
 
 const BIN_CANDIDATES = [
+  join(homedir(), "Library/pnpm/nodejs/24.11.0/bin/openclaw"),
   "/opt/homebrew/bin/openclaw",
   "/usr/local/bin/openclaw",
   "/usr/bin/openclaw",

@@ -442,8 +442,8 @@ export class GatewayRpcClient {
         id: this.connectRequestId,
         method: "connect",
         params: {
-          minProtocol: 3,
-          maxProtocol: 3,
+          minProtocol: 4,
+          maxProtocol: 4,
           client: {
             id: "cli",
             version: "mission-control",

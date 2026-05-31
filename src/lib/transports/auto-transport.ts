@@ -283,11 +283,14 @@ export class AutoTransport implements OpenClawClient {
     // gatewayRpc uses WebSocket/HTTP RPC — CLI fallback does not help here
     // (the CLI would spawn a new gateway process or timeout). Fail fast and let
     // callers serve stale cache instead of spawning an expensive subprocess.
-    await this.probe();
-    if (this.preferHttp) {
-      return this.http.gatewayRpc<T>(method, params, timeout);
+    // Always try HTTP (WebSocket) RPC regardless of /tools/invoke probe state;
+    // the WebSocket RPC path is independent of HTTP REST tool invocation.
+    try {
+      return await this.http.gatewayRpc<T>(method, params, timeout);
+    } catch (err) {
+      const reason = err instanceof Error ? err.message : String(err);
+      throw new Error(`Gateway RPC unavailable for ${method}: ${reason}`);
     }
-    throw new Error(`Gateway RPC unavailable for ${method} — gateway is not reachable via HTTP`);
   }
 
   readFile(path: string): Promise<string> {

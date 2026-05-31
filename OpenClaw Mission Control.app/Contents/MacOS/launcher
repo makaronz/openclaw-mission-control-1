@@ -1,0 +1,34 @@
+#!/bin/zsh
+set -euo pipefail
+
+export PATH="/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+
+REPO_DIR="/Users/arkadiuszfudali/.openclaw/openclaw-mission-control"
+URL="http://127.0.0.1:3000"
+LOG_DIR="${HOME}/Library/Logs"
+LOG_FILE="${LOG_DIR}/OpenClaw Mission Control.log"
+
+mkdir -p "$LOG_DIR"
+
+is_ready() {
+  /usr/bin/curl --silent --fail --max-time 2 "${URL}/api/status" >/dev/null 2>&1 ||
+    /usr/bin/curl --silent --fail --max-time 2 "$URL" >/dev/null 2>&1
+}
+
+if ! is_ready; then
+  cd "$REPO_DIR"
+  /usr/bin/nohup /usr/bin/env npm run dev >>"$LOG_FILE" 2>&1 &
+
+  for _ in {1..30}; do
+    if is_ready; then
+      break
+    fi
+    /bin/sleep 1
+  done
+fi
+
+if ! is_ready; then
+  /usr/bin/osascript -e 'display notification "Mission Control did not respond on http://127.0.0.1:3000. Check ~/Library/Logs/OpenClaw Mission Control.log." with title "OpenClaw Mission Control"'
+fi
+
+/usr/bin/open "$URL"
